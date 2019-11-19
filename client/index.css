@@ -7,7 +7,7 @@ body, html {
 
 p {
     font-family: "Verdana";
-    padding: 15px;
+    padding: 20px;
 }
 
 /* NAV BAR */
@@ -30,4 +30,8 @@ p {
 
 .content {
     padding: 15px;
+}
+
+.navbar-brand {
+    height: 35px;
 }
