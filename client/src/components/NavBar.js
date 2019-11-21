@@ -25,8 +25,8 @@ export const NavBar = () => (
         
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Track That Job</a></li>
-            <li><a href="#">My Profile</a></li>
+            <li><a href="./AppTracker">Track That Job</a></li>
+            <li><a href="./MyProfile">My Profile</a></li>
         </ul>
         
     </div>

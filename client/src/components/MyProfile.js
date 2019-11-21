@@ -1,7 +1,8 @@
 import React from 'react'
 
-export const AppTracker = () => (
+export const MyProfile = () => (
 <React.Fragment>
-    This is the App tracker
+
+    This is the Profile page
 </React.Fragment>
 )
