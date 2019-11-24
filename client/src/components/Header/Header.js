@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 
+const rStyle = {
+    display: 'inline-block',
+};
+
 const Header = () => {
     return (
 
@@ -21,7 +25,7 @@ const Header = () => {
                         <a class="navbar-brand" href="/">Home</a>
                     </div>
                     
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right" style={rStyle}>
                         <li><a href="/">Dashboard</a></li>
                         <li><a href="./AppTracker">Track That Job</a></li>
                         <li><a href="./MyProfile">My Profile</a></li>
