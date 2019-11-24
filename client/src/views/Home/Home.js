@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from '../../assets/logo.svg';
 import './Home.css';
+import {NavBar} from '../../components/NavBar';
 
 function Home() {
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                {/* <img src={logo} className="App-logo" alt="logo" /> */}
                 <p>
                     Track that Job
                 </p>
