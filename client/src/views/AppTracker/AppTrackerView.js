@@ -1,11 +1,18 @@
 import React, {Component} from 'react';
+import Tracker from '../../components/Tracker/TrackerNav';
 
-function AppTracker() {
+class AppTracker extends Component {
+    render() {
+        return <Tracker />;
+    }
+}
+
+/*function AppTracker() {
     return (
         <div className="App">
             <header className="App-header">
                 <p>
-                   AppTacker Page
+                   AppTracker Page
                 </p>
                 <a
                     className="App-link"
@@ -17,6 +24,6 @@ function AppTracker() {
             </header>
         </div>
     );
-}
+}*/
 
 export default AppTracker;

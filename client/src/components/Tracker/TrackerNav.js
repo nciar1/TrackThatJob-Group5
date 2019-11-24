@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from 'react-bootstrap/Navbar'
 
 class TrackerNav extends Component {
   render() {
     return (
+        
     <div className="Navbar">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <a className="navbar-brand" href="/">MERN STACK APP</a>
