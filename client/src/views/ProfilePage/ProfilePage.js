@@ -1,12 +1,11 @@
 import React from 'react';
-import './Home.css';
 
-function Home() {
+function ProfilePage() {
     return (
         <div className="App">
             <header className="App-header">
                 <p>
-                   Home Page
+                 Profile Page
                 </p>
                 <a
                     className="App-link"
@@ -20,4 +19,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default ProfilePage;
