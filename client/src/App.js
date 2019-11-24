@@ -3,7 +3,7 @@ import { Route, Switch, Redirect  } from 'react-router-dom';
 
 import {NavBar} from './components/NavBar';
 import {MyProfile} from './components/MyProfile';
-import {AppTracker} from './components/AppTracker';
+import AppTracker from './components/Tracker/AppTracker';
 
 
 
