@@ -1,12 +1,11 @@
-import React from 'react';
-import './Home.css';
+import React, {Component} from 'react';
 
-function Home() {
+function AppTracker() {
     return (
         <div className="App">
             <header className="App-header">
                 <p>
-                   Home Page
+                   AppTacker Page
                 </p>
                 <a
                     className="App-link"
@@ -20,4 +19,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default AppTracker;
