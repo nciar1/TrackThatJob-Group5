@@ -1,23 +1,33 @@
 import React from 'react';
 import { Route, Switch, Redirect  } from 'react-router-dom';
-import Home from "./views/Home/Home"
-import NotFound from "./views/NotFound"
-import Header from "./components/Header/Header"
+
+import {NavBar} from './components/NavBar';
+import {MyProfile} from './components/MyProfile';
+import AppTracker from './components/Tracker/AppTracker';
+
 
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Switch>
-        <Route exact path="/Home" component={Home} />
-        <Route exact path="/">
-          <Redirect to="/Home" />
-        </Route>
-        <Route component={NotFound}/>
+   <div>
+
+     <NavBar />
+
+     <Switch>
+        
+        <Route exact path='/AppTracker' component={AppTracker} />
+        <Route exact path='/MyProfile' component={MyProfile}/>
+     
+        
       </Switch>
-    </div>
+     
+   </div>
+
+   
+
+
   );
 }
 
 export default App;
+
