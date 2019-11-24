@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import AppTacker from '../../Tracker/AppTracker';
 
 function AppTracker() {
     return (
