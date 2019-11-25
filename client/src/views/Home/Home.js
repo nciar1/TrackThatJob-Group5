@@ -1,6 +1,8 @@
 import React from 'react';
 import './Home.css';
 import EventCalendar from '../../components/Calendar/Calendar';
+import Notepad from '../../components/Notepad/Notepad';
+
 
 function Home() {
     return (
@@ -10,14 +12,13 @@ function Home() {
                    Home Page
                    {/* <Calendar/> */}
                 </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                </a>
             </header>
+            <body className="App-Body">
+                <p>
+                    Notepad
+                   <Notepad/>
+                </p>
+            </body>
         </div>
     );
 }
