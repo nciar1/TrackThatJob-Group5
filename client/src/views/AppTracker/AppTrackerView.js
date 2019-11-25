@@ -1,9 +1,16 @@
 import React, {Component} from 'react';
-import Tracker from '../../components/Tracker/TrackerNav';
+import TrackerNav from '../../components/Tracker/TrackerNav';
+import Trackers from '../../components/Tracker/Trackers';
+
+class TrackerNavBar extends Component {
+    render() {
+        return <TrackerNav />;
+    }
+}
 
 class AppTracker extends Component {
     render() {
-        return <Tracker />;
+        return <Trackers />
     }
 }
 
