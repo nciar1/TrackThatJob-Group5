@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import EventCalendar from '../../components/Calendar/Calendar';
 
 function Home() {
     return (
@@ -7,6 +8,7 @@ function Home() {
             <header className="App-header">
                 <p>
                    Home Page
+                   {/* <Calendar/> */}
                 </p>
                 <a
                     className="App-link"

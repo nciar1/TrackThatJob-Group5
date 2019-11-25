@@ -14,7 +14,7 @@ const Header = () => {
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script src="https://code.angularjs.org/1.4.3/angular.js"></script>
             
-            <link rel="stylesheet" href="index.css"/>
+            {/* <link rel="stylesheet" href="index.css"/> */}
             
             <nav class="navbar fixed-top navbar-default">
                 <div class="container-fluid">
